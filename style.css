@@ -1,0 +1,27 @@
+#grid {
+  display: grid;
+  grid-template-columns: 150px 1fr;
+}
+#grid #article {
+  padding-left: 20px;
+}
+#grid ol {
+  border-right: 3px black solid;
+  padding: 20px;
+  margin: 0;
+  width: 100px;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+h1 {
+  font-size: 50px;
+  text-align: center;
+  border-bottom: 3px black solid;
+  padding: 7px;
+  margin: 3px;
+}
+h5 {
+  text-align: right;
+}
